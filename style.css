@@ -1,0 +1,14 @@
+body {
+  background-color: #2e2e2e;
+}
+
+.board-wrapper {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(3, 150px);
+  grid-template-rows: repeat(3, 150px);
+}
+
+.board-wrapper > div {
+  background-color: rgb(154, 160, 154);
+}
