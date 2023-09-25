@@ -7,6 +7,9 @@ const gameBoard = (() => {
     [0, 0, 0],
     [0, 0, 0]
   ];
+  for (let i = 0; i < cellArr.length; i++) {
+    cellArr[i].textContent = 'X';
+  }
 })();
 
 const personFactory = (name) => {
