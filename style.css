@@ -4,6 +4,7 @@ body {
 
 .board-wrapper {
   display: grid;
+  margin: 25px 30px;
   grid-gap: 10px;
   grid-template-columns: repeat(3, 150px);
   grid-template-rows: repeat(3, 150px);
@@ -11,4 +12,8 @@ body {
 
 .board-wrapper > div {
   background-color: rgb(154, 160, 154);
+}
+
+.board-wrapper > div:hover {
+  cursor: pointer;
 }
