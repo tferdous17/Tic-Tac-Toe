@@ -5,3 +5,10 @@ const gameBoard = (() => {
     [0, 0, 0]
   ];
 })();
+
+const personFactory = (name) => {
+  const play = () => {
+    // placeholder
+  }
+  return {name, play};
+}
